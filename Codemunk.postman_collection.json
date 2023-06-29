@@ -22,12 +22,13 @@
 					"raw": "{\r\n    \"duration\" : 1\r\n}\r\n"
 				},
 				"url": {
-					"raw": "http://localhost:8000/api/timer/start/",
-					"protocol": "http",
+					"raw": "https://pomodoro-timer-lj93.onrender.com/api/timer/start/",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"pomodoro-timer-lj93",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"timer",
@@ -50,12 +51,13 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:8000/api/timer/stop/",
-					"protocol": "http",
+					"raw": "https://pomodoro-timer-lj93.onrender.com/api/timer/stop/",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"pomodoro-timer-lj93",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"timer",
@@ -78,12 +80,13 @@
 					}
 				],
 				"url": {
-					"raw": "http://localhost:8000/api/timer/reset/",
-					"protocol": "http",
+					"raw": "https://pomodoro-timer-lj93.onrender.com/api/timer/reset/",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"pomodoro-timer-lj93",
+						"onrender",
+						"com"
 					],
-					"port": "8000",
 					"path": [
 						"api",
 						"timer",
