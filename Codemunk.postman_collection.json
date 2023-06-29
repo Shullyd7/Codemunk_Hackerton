@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "9df6285b-8248-4d98-b6f9-ca7591a7f329",
+		"name": "Codemunk",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21142702"
+	},
+	"item": [
+		{
+			"name": "Start Timer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"duration\" : 1\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/timer/start/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"timer",
+						"start",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stop Timer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/timer/stop/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"timer",
+						"stop",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reset Timer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/timer/reset/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"timer",
+						"reset",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
