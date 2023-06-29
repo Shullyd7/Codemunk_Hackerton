@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-k%vyassk#h(hv_aq=1wsu^h*+y9-_hs8s+pfx9#gn#$$xrv9!$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://pomodoro-timer-lj93.onrender.com']
 
 
 # Application definition
